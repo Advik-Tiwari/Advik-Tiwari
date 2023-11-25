@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() {
+
+  int a = 97;
+  int x;
+  printf("Enter the number :");
+  scanf("%d",&x);
+    if(97 % x != 0)
+    printf("97 is not divisible by the number :%d",x);
+  else
+  printf("97 is divisible by the number :%d",x);
+  return 0;
+}
